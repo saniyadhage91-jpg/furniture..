@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #e9e9e9;
+}
+
+
+.products-section {
+    padding: 60px 100px;
+}
+
+
+.title {
+    color: darkgreen;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+
+.see-all {
+    font-weight: bold;
+}
+
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 80px;
+    justify-items: center;
+    
+}
+
+
+.card {
+    width: 280px;
+    height: 360px;
+    background: linear-gradient(to bottom, #f3f0c7, #e5e1b8);
+    padding: 20px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    position: relative;
+    text-align: left;
+}
+
+
+.green {
+    background: linear-gradient(to bottom, #0f5e0f, #063f06);
+    color: white;
+    
+}
+
+
+.card h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 10px 0 20px;
+    font-weight: bold;
+}
+
+
+.card img {
+    width: 180px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card:hover{
+transform: translateY(-10px);
+box-shadow: 0 20px 30px rgba(0,0,0,0.3);
+transition: 0.3s;
+}
